@@ -10,13 +10,13 @@ class Result extends StatelessWidget {
   String get resultPhrase {
     String resultText;
     if (resultScore > 14) {
-      resultText = 'Harika';
+      resultText = 'Harika!!';
     } else if (resultScore > 9) {
       resultText = 'Ehhhh işte';
     } else if (resultScore > 4) {
-      resultText = 'Kötü';
+      resultText = 'Kötü!!';
     } else {
-      resultText = 'Tekrar Dene';
+      resultText = 'Tekrar Dene!!!';
     }
     ;
     return resultText;
